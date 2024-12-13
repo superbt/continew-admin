@@ -44,6 +44,10 @@ import top.continew.starter.web.model.R;
  * @author Charles7c
  * @since 2022/12/8 23:15
  */
+
+/***
+ * 封装的很里厉害
+ */
 @Slf4j
 @EnableFileStorage
 @EnableMethodCache(basePackages = "top.continew.admin")
