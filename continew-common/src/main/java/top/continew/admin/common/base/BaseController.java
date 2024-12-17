@@ -45,6 +45,16 @@ import java.util.List;
  * @author Charles7c
  * @since 2024/12/6 20:30
  */
+
+/**
+ * 数据库基类 接口
+ * 
+ * @param <S>
+ * @param <L>
+ * @param <D>
+ * @param <Q>
+ * @param <C>
+ */
 public class BaseController<S extends BaseService<L, D, Q, C>, L, D, Q, C extends BaseReq> extends AbstractBaseController<S, L, D, Q, C> {
 
     @Override
